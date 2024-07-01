@@ -1,6 +1,12 @@
 let intentos = 6;
-let diccionario = ['RATON', 'PERRO', 'COMPU', 'ESTRES']
-Math.floor(Math.random() * 10) + 1;
+let diccionario = [
+    'RATON', 'PEDRO', 'COMPU', 'ESTRES', 'GATOS', 'CASAS', 'LUCES', 'PLUMA', 'VOLAR', 
+    'NIEVE', 'PEZES', 'HORAS', 'LAPIZ', 'LIBRO', 'NUBES', 'CAMPO', 'SALSA', 'MUNDO', 
+    'SALUD', 'FOTOS', 'CIELO', 'PLATO', 'CABLE', 'LLAVE', 'FIEST', 'PIANO', 'MUJER', 
+    'NOCHE', 'AVION', 'BOTES', 'RIEGO', 'VERDE', 'RUIDO', 'GOLPE', 'VIDAS', 'SUEÑO', 
+    'SILLA', 'TORRE', 'TIGRE', 'ARBOL', 'TENIS', 'PARED', 'FRUTA', 'MONTE', 'PERAS', 
+    'HOJAS', 'CANTO', 'MORAL', 'RATAS', 'PISTA'];
+Math.floor(Math.random() * 50) + 1;
 const palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
 
 function intentar(){
